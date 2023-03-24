@@ -23,7 +23,7 @@ While working on this I learned how to validate strings and also take input from
 
 ## Credits
 
-Sample Code given to us by BootCampSpot
+Sample Code given to us by BootCampSpot <br />
 [Mozilla Developer](https://developer.mozilla.org/en-US/) <br />
 [W3 Schools](https://www.w3schools.com/) <br />
 [Stack Overflow](https://stackoverflow.com/) <br />
