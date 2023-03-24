@@ -10,5 +10,18 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// Setting Global variables for all the letters, numbers and symbols available in the password.
+var password = "";
+var lowerCaseList = "abcdefghijklmnopqrstuvwxyz";
+var upperCaseList = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numbersList = "0123456789";
+var symbolsList = "!#$%&'()*_+,-[\\]./:;=<>?@^`{|}~";
+
+function generatePassword() {
+  var passLength = prompt("How many Characters would you like the password to be? (Please choose between 8 - 128 characters)");
+
+  if (passLength < 8 || passLength > 128) {
+    alert("Error: Invalid input. Please choose a number between 8 - 128 characters");
+    return;
+  }
+}
