@@ -10,9 +10,6 @@ function writePassword() {
 
 }
 
-  // Add event listener to generate button
-  generateBtn.addEventListener("click", writePassword);
-
 // Setting Global variables for all the letters, numbers and symbols available in the password.
 var password = "";
 var lowerCaseList = "abcdefghijklmnopqrstuvwxyz";
@@ -68,3 +65,6 @@ function generatePassword() {
     return password;
     
   }
+
+    // Add event listener to generate button
+    generateBtn.addEventListener("click", writePassword);
